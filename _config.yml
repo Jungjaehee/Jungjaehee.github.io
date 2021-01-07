@@ -20,7 +20,7 @@ url: "https://Jungjaehee.github.io"
 permalink: /:year/:month/:day/:title
 repository: Jungjaehee/Jungjaehee.github.io
 paginate: 5
-large_category: "study", "paper_review"
+# large_category: "study", "paper_review"
 
 # MatJek specific configurations
 github_profile: "https://github.com/Jungjaehee"

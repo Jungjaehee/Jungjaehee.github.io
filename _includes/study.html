@@ -1,16 +1,13 @@
 <div class="col s12 cat-div">
   <div class="cat-list">
-    {% for l_cat in site.large_category[0] %}
-    {% for cat in l_cat.categories %}
+    {% for cat in site.categories %}
     {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
     {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
     <a class="cat-chip" href="#{{cat[0] | slugify}}{% if test == testup %}_cap{% endif %}"><div class="chip z-depth-1">{{cat[0]}}</div></a>
     {% endfor %}
-    {% endfor %}
   </div>
   <div class="divider"></div>
   <div class="cat-index">
-    {% for l_cat in site.large_category[0] %}
     {% for cat in site.categories %}
     {% capture test %}{{cat[0] | slice: 0}}{% endcapture %}
     {% capture testup %}{{cat[0] | slice: 0 | upcase}}{% endcapture %}
@@ -36,7 +33,6 @@
       </div>
       {% endfor %}
     </ul>
-	{% endfor %}
     {% endfor %}
   </div>
 </div>
