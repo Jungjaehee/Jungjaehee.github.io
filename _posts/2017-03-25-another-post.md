@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "This is Just Another Post"
-date:   2017-03-25 01:30:13 +0800
-categories: default
+date:   2017-03-25
+categories: category_1
 tags: test
+comments: 1
+large_category: study
 ---
 I have some text.
 
